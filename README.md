@@ -1,72 +1,73 @@
-# Personal Portfolio ⚡️ 
-> A clean, beautiful, responsive portfolio template for Software Developers!
+# 0xFolio
 
-> https://varadbhogayata.github.io
+0xFolio is a free-to-use portfolio HTML template for developers. It contains very simple, responsive and optmized code. Code is sum of several components which can be reused in any project very easily.
 
-![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
-![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
-[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/varadbhogayata.github.io/commits/master)
-[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://varadbhogayata.github.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/varadbhogayata/)
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+**Live preview:** https://0xali.com/0xfolio
 
-### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
-  </a>
-  </kbd>
-</p>
+![0xFolio preview](https://i.imgur.com/CQFoEmG.png)
 
-:star: Star me on GitHub — it helps!
+### Features
 
-## Features 📋
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Typing animation using `Typed.js`\
-⚡️ Easy to modify
+- Completely responsive design
+- Mobile first approach
+- Responsive images
+- Clean and readable code
+- Usable Sass components
+- Based on Sass recommended [architecture](https://sass-guidelin.es/#architecture) (7-1 pattern)
+- SVG icons
+  **Note:** I recommend using [Befunky](https://www.befunky.com/create/) for manually optimizing images (you can do it in your code if you want). Check `/img` dir to get an idea about image resolutions I used.
 
-## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
-- Add or remove images from `varadbhogayata.github.io/assets/img/` directory as per your requirement.
-- I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to deploy the website the EASIEST WAY.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
-- Push the generated code to the `master` branch of this repository.
-- <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
+## Getting Started
 
-## Sections 📚
-✔️ About me\
-✔️ Experience\
-✔️ Projects \
-✔️ Skills \
-✔️ Education\
-✔️ Contact Info\
-✔️ Resume
+These instructions will get you a copy of this project on your local machine.
 
-To view a live example, **[click here](https://varadbhogayata.github.io/)**
+### Prerequisites
 
-## Tools Used 🛠️
-* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
-* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
-* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
+- [Node.js](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/download) (optional)
 
-## Contributing 💡
-#### Step 1
+### Cloning and building
 
-- **Option 1**
-    - 🍴 Fork this repo!
+Running the commands in your terminal will clone and build a copy of this template on your machine locally.
 
-- **Option 2**
-    - 👯 Clone this repo to your local machine.
+Start by cloning the repository on your local machine using git
 
+    git clone https://github.com/0xaliraza/0xfolio
 
-#### Step 2
+Change directory
 
-- **Build your code** 🔨🔨🔨
+    cd 0xfolio/
 
-#### Step 3
+Install required npm modules for building scss locally
 
-- 🔃 Create a new pull request.
+    npm install
 
-## License 📄
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+Now let's build all the Sass files to CSS by this useful `build` npm script
+
+    npm run build
+
+![Results](https://i.imgur.com/DRdGnjF.png)
+
+## CSS Frameworks Used
+
+- [Sass](https://sass-lang.com/)
+- [Bootstrap](https://getbootstrap.com/)
+
+## Authors
+
+[Ali Raza](https://0xali.com) (me) **🙃**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Find Me Online
+
+Feel free to contact me for any kind of help or information. Let's get connected! :)
+
+- [Website](https://0xali.com)
+- [Github](https://github.com/0xaliraza)
+- [Twitter](https://twitter.com/0xaliraza)
+- [Medium](https://medium.com/@0xaliraza)
+- [Linkedin](https://www.linkedin.com/in/ali-raza-937339159/)
